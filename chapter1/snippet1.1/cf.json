@@ -1,0 +1,11 @@
+{
+    "Resources": {
+        "helloworld": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "ImageId": "ami-944162ec",
+                "InstanceType": "t2.micro"
+            }
+        }
+    }
+}
